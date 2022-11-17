@@ -95,7 +95,7 @@ the pitch.
 
 <h2 id="general"> Overview </h2>
 
-**FAIR for Leaders**
+**FAIR data sharing for Leaders**
 
 The way we disseminate scientific results is changing to include Open Science and FAIR principles (*Findable, Accessible, Interoperable and Reusable*). 
 Well-organised data (and code) is not just the best preparation for this, it can also increase productivity. 
