@@ -1,6 +1,6 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
-title: Ed-DaSH FAIR bio practice
+title: Ed-DaSH FAIR for Leaders
 # More detailed instructions (including how to fill these variables for an
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
@@ -10,11 +10,11 @@ country: "gb"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the
 latitude: "55.96327"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-3.23222"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "ADD DATE"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "ADD DATE"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate:   ADD DATE    # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate:    ADD DATE     # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor:  # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+humandate: "8 Dec 2022"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "10:00 - 16:30"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+startdate:   2022-12-08    # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate:    2022-12-08     # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor:  ["Tomasz Zieliński"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper:      # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["bio_rdm@ed.ac.uk"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
@@ -95,22 +95,27 @@ the pitch.
 
 <h2 id="general"> Overview </h2>
 
-**FAIR in (Biological) Practice**
+**FAIR for Leaders**
 
-Open Science is disruptive. It will change how we do reasearch and how society benefits from it. Making data re-usable is key to this, and FAIR principles are a way to achieve it.
+The way we disseminate scientific results is changing to include Open Science and FAIR principles (*Findable, Accessible, Interoperable and Reusable*). 
+Well-organised data (and code) is not just the best preparation for this, it can also increase productivity. 
+With the introduction of Narrative CVs, both your research and your researchers can be recognised for these new research outputs.
+You as a leader should make the most of these changes, for your group and your grants
 
 * But what does it mean in practice?
 * How can a biologist incorporate those principles in their workflow?
-* We will learn that becoming FAIR and following OS practices is a process.
-* We will learn how to work more efficient with the data
+* How to work more efficiently with the data?
 
-We will teach you how planning and using the correct set of tools you can make your outputs ready for public sharing and reuse. 
+In this interactive course, we will teach:
 
-This hands-on 4 half-day sessions workshop covers the basics of Open Science and FAIR practices,
-and looks at how to use these ideas in your own projects. The workshop is a mix of lectures
-and hands-on lessons where you will use the approaches learned and implement some of the discussed practices. 
+*	Why it is worthwhile to embrace good data management and FAIR principles
+*	How data management tools improve productivity
+*	How to select repositories for your data
+*	How to write and assess Data Management Plans
 
-The course is aimed at active researchers in biomedicine science (PhD students, postdocs, technicians, young PIs etc.) who are interested in Open Science, FAIR (*Findable, Accessible, Interoperable and Reusable*) principles and efficient data management. This training is aimed at those who want to be familiar with these concepts and apply them throughout their project’s life cycle. The course is covered in four half days.
+The interactive format of this course (carpentry-style with practical exercises and group discussions) makes it longer than a typical death-by-powerpoint presentation but it is also much more rewarding for the participants!
+
+The course is aimed at group leaders and PIs in bio-medical field who are interested in Open Science, FAIR principles and efficient data management. This training is aimed at those who want to be familiar with these concepts and how to introduce them in their groups.
 
 **Ed-DaSH**
 
@@ -118,7 +123,7 @@ Ed-DaSH is a **Da**ta **S**cience training programme for **H**ealth and Bioscien
 
 <h2 id="general">General Information</h2>
 
-<strong>Registration:</strong> [Online](https://www.epay.ed.ac.uk/conferences-and-events/college-of-medicine-and-veterinary-medicine/school-of-molecular-genetic-and-population-health-sciences/igmm/fair-in-biological-practice)  
+<strong>Registration:</strong> [Online]()  
 The course is free but there is a 50 pounds holding deposit refunded after attending the workshop.
 
 {% comment %}
@@ -211,7 +216,7 @@ Modify the block below if there are any special requirements.
   {% else %}
     Participants must have access to a computer with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.).<br>
-  Paticipaints must create accounts in <a href="https://www.protocols.io">Protocols.io</a> and <a href="https://www.benchling.com">Benchling</a>,
+  
   {% endif %}
 </p>
 
